@@ -51,12 +51,12 @@ export function tradeCategoryLabel(category: string): string {
 }
 
 export function getReviewQRUrl(tokenId: string): string {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://tiptop.report'
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://tiptop.review'
   return `${baseUrl}/review/${tokenId}`
 }
 
 export function getWorkerProfileUrl(slug: string): string {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://tiptop.report'
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://tiptop.review'
   return `${baseUrl}/worker/${slug}`
 }
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: '%s | TipTop',
   },
   description: 'Build a portable professional reputation through verified customer reviews. Your TipTop profile follows you from job to job.',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://tiptop.report'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://tiptop.review'),
   openGraph: {
     type: 'website',
     siteName: 'TipTop',

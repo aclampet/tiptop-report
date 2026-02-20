@@ -1,7 +1,7 @@
 import { Resend } from 'resend'
 
-const FROM = process.env.RESEND_FROM_EMAIL || 'notifications@tiptop.report'
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://tiptop.report'
+const FROM = process.env.RESEND_FROM_EMAIL || 'notifications@tiptop.review'
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://tiptop.review'
 
 function getResend(): Resend | null {
   if (!process.env.RESEND_API_KEY) {
@@ -58,7 +58,7 @@ export async function sendNewReviewEmail({
               </a>
               <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 32px 0;">
               <p style="font-size: 12px; color: #94a3b8; text-align: center;">
-                TipTop.report — Your reputation travels with you.<br>
+                TipTop.review — Your reputation travels with you.<br>
                 <a href="${APP_URL}/worker/${workerSlug}" style="color: #0d9488;">View your public profile</a>
               </p>
             </div>
@@ -115,7 +115,7 @@ export async function sendWelcomeEmail({
               </a>
               <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 32px 0;">
               <p style="font-size: 12px; color: #94a3b8; text-align: center;">
-                TipTop.report — Your reputation travels with you.
+                TipTop.review — Your reputation travels with you.
               </p>
             </div>
           </body>

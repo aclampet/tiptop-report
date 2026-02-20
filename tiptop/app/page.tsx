@@ -209,7 +209,7 @@ export default function HomePage() {
       <footer className="py-12 px-6 border-t border-white/5">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <span style={{ fontFamily: 'var(--font-display)' }} className="text-xl text-brand-400">TipTop</span>
-          <p className="text-ink-500 text-sm">© 2026 TipTop.report — Your reputation travels with you.</p>
+          <p className="text-ink-500 text-sm">© 2026 TipTop.review — Your reputation travels with you.</p>
           <div className="flex gap-6 text-sm text-ink-500">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>

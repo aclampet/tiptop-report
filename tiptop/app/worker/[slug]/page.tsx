@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${worker.display_name} — ${formatRating(worker.overall_rating)}★ on TipTop`,
-    description: `${worker.display_name} has ${worker.review_count} verified reviews with a ${formatRating(worker.overall_rating)}/5 rating on TipTop.report.`,
+    description: `${worker.display_name} has ${worker.review_count} verified reviews with a ${formatRating(worker.overall_rating)}/5 rating on TipTop.review.`,
   }
 }
 
@@ -194,8 +194,8 @@ export default async function WorkerProfilePage({ params }: Props) {
 
       {/* Footer */}
       <div className="text-center py-12 text-ink-600 text-sm">
-        <a href="https://tiptop.report" className="text-brand-600 hover:text-brand-400 transition-colors font-medium">
-          TipTop.report
+        <a href="https://tiptop.review" className="text-brand-600 hover:text-brand-400 transition-colors font-medium">
+          TipTop.review
         </a>{' '}
         — Your reputation travels with you
       </div>

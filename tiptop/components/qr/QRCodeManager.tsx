@@ -102,7 +102,7 @@ export default function QRCodeManager({ tokens: initialTokens, workerName, worke
 
       ctx.fillStyle = '#64748b'
       ctx.font = '11px sans-serif'
-      ctx.fillText('Scan to leave a review • TipTop.report', size / 2, size + 30)
+      ctx.fillText('Scan to leave a review • TipTop.review', size / 2, size + 30)
 
       URL.revokeObjectURL(url)
 

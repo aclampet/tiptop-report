@@ -188,7 +188,7 @@ export default async function DashboardPage() {
           >
             <div>
               <p className="text-sm font-medium text-white">Your public profile</p>
-              <p className="text-xs text-ink-500 mt-0.5 truncate">tiptop.report/worker/{worker.slug}</p>
+              <p className="text-xs text-ink-500 mt-0.5 truncate">tiptop.review/worker/{worker.slug}</p>
             </div>
             <ExternalLink className="w-4 h-4 text-ink-600 group-hover:text-brand-400 transition-colors flex-shrink-0" />
           </Link>

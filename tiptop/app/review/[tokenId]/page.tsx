@@ -135,7 +135,7 @@ export default function ReviewPage() {
             </div>
             <p className="text-xs text-ink-600 mt-4">
               Powered by{' '}
-              <a href="https://tiptop.report" className="text-brand-600 hover:text-brand-400">TipTop.report</a>
+              <a href="https://tiptop.review" className="text-brand-600 hover:text-brand-400">TipTop.review</a>
             </p>
           </div>
         </div>
@@ -274,7 +274,7 @@ export default function ReviewPage() {
 
           <p className="text-center text-xs text-ink-600 mt-6">
             Powered by{' '}
-            <a href="https://tiptop.report" className="text-brand-600 hover:text-brand-400">TipTop.report</a>
+            <a href="https://tiptop.review" className="text-brand-600 hover:text-brand-400">TipTop.review</a>
           </p>
         </div>
       </div>
